@@ -1,1 +1,18 @@
-404: Not Found
+@font-face {
+  font-family: 'GrandSlang';
+  src: url('/fonts/grandslang-roman.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BwGradual';
+  src: url('/fonts/BwGradualDEMO-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
